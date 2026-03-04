@@ -24,39 +24,59 @@ In this project we will define the important function setup the necessary config
 
 <h2>Getting Started</h2>
 
-<h3>Configure Roles (Add/Remove permissions)</h3>
+<h3>1. Roles: Here we can assign different Permission to different Roles.</h3>
+     <img src="images/post1.png" width="75%" >
                
-- We are going to add "Supreme Admin" as a new role that grants a user full access to the sytem.
-     - Admin Panel -> Agents -> Roles -> click Add New Role.
-               <img width="959" height="380" alt="post1" src="https://github.com/user-attachments/assets/1de466d6-282a-47a7-9ccb-83aa63c3a180" />
-               <img width="957" height="568" alt="post2" src="https://github.com/user-attachments/assets/240fd404-db09-47c4-a208-16baae11bccf" />
-
+- Adding "Supreme Admin" as a new Role that grants a user full access to the sytem.
+     - Admin Panel > Agents > Roles > click Add New Role.
+          <img src="images/post2.png" width="75%" >
+             
      - Under Permission tab, check all the boxes from Tickets, Tasks and Knowledgebase tabs and hit "Add Role".
-               <img width="956" height="406" alt="post3" src="https://github.com/user-attachments/assets/77a52a34-50ea-49ef-9d98-cc0118e73874" />
-               <img width="952" height="441" alt="post4" src="https://github.com/user-attachments/assets/8414450b-bf2f-492a-a022-a376caa7d774" />
+          <img src="images/post3.png" width="75%" >
+          <img src="images/post4.png" width="75%" >
+              
+<h2>2. Departments: Allows different level of Ticket Visibility. ie. Help Desk vs SysAdmins vs Networking</h2>
+     <img src="images/dept.png" width="75%" >  
+                 
+- Adding "SysAdmins" as a new Department. 
+     - Admin Panel > Agents > Department > Select "Top Level Department" as Parent, type in "SysAdmins" under Name > hit Add New Role.</br>
+          <img src="images/dept1.png" width="75%" >
+          <img src="images/dept2.png" width="75%" >
+                    
+<h2>3. Teams: Allows user to pull Agents from different Departments to form a new team. </h2>
 
-       
-      
+- Let's create a new team and name it "Online Banking".
+     - Admin Panel > Agents > Teams > click Add New Team
+          <img src="images/teams.png" width="75%" >
+     - Type "Online Banking" under Name, then click Create Team. *(We will add Members and Team Lead at the later part of this activity.)*
+          <img src="images/teams1.png" width="75%" >
+          
+<h2>4. User Settings: This particular setting will allow anyone to create tickets. </h2>
+
+- UNCHECK Require registration and loging to create tickets.
+     - Admin Panel > Settings > User Settings > Uncheck Registration Required > Save Changes.
+          <img src="images/user.png" width="75%" >
+
+<h2>5. Agents: Adding new Agents/employees. Use the Agent's credential and information below. </h2>
+
+- Name: Jane Doe | Email: jane@eatech.com | Department: SysAdmins | Role: Supreme Admin | Team: Online Banking | Username: jane | Password: Password1
+- Name: John Doe | Email: john@eatech.com | Department: Support | Role: View only | Team: - | Username: john | Password: Password1
+  
+- To add new Agents go to...
+     - Admin Panel > Agents > Add New
+          <img src="images/agent.png" width="75%" >
+     - Under Account tab, enter the agent's personal information, including the username and password.
+          <img src="images/agent1.png" width="75%" >
+          <img src="images/agent4.png" width="75%" >
+     - From the Access tab, choose SysAdmins and Supreme Admin from Primary Dept.
+          <img src="images/agent2.png" width="75%" >
+     - And at the Teams tab, choose SysAdmins and Supreme Admin from Primary Dept.
+           <img src="images/agent3.png" width="75%" >          
+     - Create another Agent and use the following details and credentials:
 
 
-<h2>Configure Departments (Ticket Visibility, Help Desk vs SysAdmins, vs Networking)</h2>
-Admin Panel -> Agents -> Departments
-SysAdmins
 
-<h2>Configure Teams</h2>
-Admin Panel -> Agents -> Teams (Pull Agents from different Departments)
-Online Banking
-
-<h2>Allow anyone to create tickets</h2>
-Admin Panel -> Settings -> User Settings (UNCHECK: unregistered users can create tickets)
-Registration Required: Require registration and login to create tickets 
-
-<h2>Configure Agents (workers)</h2>
-Admin Panel -> Agents -> Add New
-Jane (Dept: SysAdmins)
-John (Dept: Support)
-
-<h2>Configure Users (customers)</h2>
+<h2>Configure Users (Customer)</h2>
 Agent Panel -> Users -> Add New
 Karen
 Ken
