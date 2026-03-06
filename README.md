@@ -25,37 +25,37 @@ In this project we will define the important function setup the necessary config
 <h2>Getting Started</h2>
 
 <h3>1. Roles: Here we can assign different Permission to different Roles.</h3>
-     <img src="images/post1.png" width="75%" >
+     <img src="images/post1.png"  >
                
 - Adding "Supreme Admin" as a new Role that grants a user full access to the sytem.
      - Admin Panel > Agents > Roles > click Add New Role.
-          <img src="images/post2.png" width="75%" >
+          <img src="images/post2.png"  >
              
      - Under Permission tab, check all the boxes from Tickets, Tasks and Knowledgebase tabs and hit "Add Role".
-          <img src="images/post3.png" width="75%" >
-          <img src="images/post4.png" width="75%" >
+          <img src="images/post3.png">
+          <img src="images/post4.png" >
               
 <h2>2. Departments: Allows different level of Ticket Visibility. ie. Help Desk vs SysAdmins vs Networking</h2>
-     <img src="images/dept.png" width="75%" >  
+     <img src="images/dept.png"  >  
                  
 - Adding "SysAdmins" as a new Department. 
      - Admin Panel > Agents > Department > Select "Top Level Department" as Parent, type in "SysAdmins" under Name > hit Add New Role.</br>
-          <img src="images/dept1.png" width="75%" >
-          <img src="images/dept2.png" width="75%" >
+          <img src="images/dept1.png">
+          <img src="images/dept2.png"  >
                     
 <h2>3. Teams: Allows user to pull Agents from different Departments to form a new team. </h2>
 
 - Let's create a new team and name it "Online Banking".
      - Admin Panel > Agents > Teams > click Add New Team
-          <img src="images/teams.png" width="75%" >
+          <img src="images/teams.png"  >
      - Type "Online Banking" under Name, then click Create Team. *(We will add Members and Team Lead at the later part of this activity.)*
-          <img src="images/teams1.png" width="75%" >
+          <img src="images/teams1.png"  >
           
 <h2>4. User Settings: This particular setting will allow anyone to create tickets. </h2>
 
 - UNCHECK Require registration and loging to create tickets.
      - Admin Panel > Settings > User Settings > Uncheck Registration Required > Save Changes.
-          <img src="images/settings.png" width="75%" >
+          <img src="images/settings.png"  >
 
 <h2>5. Agents: Adding new Agents/employees. Use the Agent's credential and information below. </h2>
 
@@ -64,30 +64,37 @@ In this project we will define the important function setup the necessary config
   
 - To add new Agents go to...
      - Admin Panel > Agents > Add New
-          <img src="images/agent.png" width="75%" >
+          <img src="images/agent.png" >
      - Under Account tab, enter the agent's personal information, including the username and password.
-          <img src="images/agent1.png" width="75%" >
-          <img src="images/agent4.png" width="75%" >
+          <img src="images/agent1.png"  >
+          <img src="images/agent4.png" >
      - From the Access tab, choose SysAdmins and Supreme Admin from Primary Dept.
-          <img src="images/agent2.png" width="75%" >
+          <img src="images/agent2.png" >
      - And at the Teams tab, choose SysAdmins and Supreme Admin from Primary Dept.
-           <img src="images/agent3.png" width="75%" >          
+           <img src="images/agent3.png" >          
      - Create another Agent and use the following details and credentials:
 
 
 
 <h2>Configure Users/Customer</h2>
-- Make sure you are on the Agent panel then, follow the steps below to add a User.
-Agent Panel -> Users -> Add New
-Karen
-Ken
 
-<h2>Configure SLA</h2>
-Admin Panel -> Manage -> SLA
-Sev-A (Grace Period: 1 hour, Schedule: 24/7)
-Sev-B (Grace Period: 4 hours, Schedule: 24/7)
-Sev-C (Grace Period: 8 hours, Business Hours)
+- Make sure you are on the Agent panel then, follow the steps below to add a User.</br>
+     Agent Panel -> Users -> Add New</br>
+     <img src="images/user.png">          
+     <img src="images/user1.png">          
 
+
+<h2>Configuring Service Level Agreement. SLA's are defined by the grace period given to a ticket depending on it's severity.</h2>
+
+To configure SLA's go to Admin Panel > Manage > SLA > After entering information on the required textbox, click Add Plan. Use the three level of SLA's below.
+
+   - Sev-A (Grace Period: 1 hour, Schedule: 24/7)
+   - Sev-B (Grace Period: 4 hours, Schedule: 24/7)
+   - Sev-C (Grace Period: 8 hours, Business Hours)</br>
+   
+     <img src="images/SLA.png">          
+     <img src="images/SLA1.png"> 
+     
 <h2>Configure Help Topics (For when users create a ticket)</h2>
 Admin Panel -> Manage -> Help Topics
 Business Critical Outage
