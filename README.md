@@ -55,7 +55,7 @@ In this project we will define the important function setup the necessary config
 
 - UNCHECK Require registration and loging to create tickets.
      - Admin Panel > Settings > User Settings > Uncheck Registration Required > Save Changes.
-          <img src="images/user.png" width="75%" >
+          <img src="images/settings" width="75%" >
 
 <h2>5. Agents: Adding new Agents/employees. Use the Agent's credential and information below. </h2>
 
@@ -76,7 +76,8 @@ In this project we will define the important function setup the necessary config
 
 
 
-<h2>Configure Users (Customer)</h2>
+<h2>Configure Users/Customer</h2>
+- Make sure you are on the Agent panel then, follow the steps below to add a User.
 Agent Panel -> Users -> Add New
 Karen
 Ken
