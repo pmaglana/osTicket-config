@@ -6,7 +6,7 @@
 
 <h2>About this Project</h2>
 
-In this project we will define the important function setup the necessary configuration needed in osTicket before we start creating and  solving mock tickets in the next part of this laboratory exercise.
+In this project we will define the important function and setup the necessary configuration needed in osTicket. This is a necessary preparation for a seamless ticket simulation in the following laboratory exercise.
 
 <h2>Environment & Technology Used</h2>
 
